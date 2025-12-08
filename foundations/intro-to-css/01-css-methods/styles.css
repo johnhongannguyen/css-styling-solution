@@ -1,17 +1,42 @@
-div{
-    text-align: center;
-    background-color: red;
-    font-weight: 700;
-    font-size: 50px;
-    color: white;
+/* This is my solution */
 
+/* .title{
+    background-color: #ff0101;
+}
+h1{
+    color: white; 
+    text-align: center;
+    font-weight: 800;
+    font-size: 32px;
+}
+
+.text{
+    background-color: #0c8000;
 }
 p{
     color:white;
-    background-color: green;
-
-}
-button{
-    background-color: orange;
     font-size: 18px;
 }
+button{
+    background-color: #ffa500;
+    font-size: 18px;
+
+} */
+
+/* Odin Project solution */
+div{
+  background-color: red;
+  color: white;
+  font-size: 32px;
+  text-align: center;
+  font-weight: bold;
+
+}
+p {
+ background-color: green;
+    color: white;
+        font-size: 18px;
+}
+button{
+    background-color: orange; font-size: 18px;
+}    
