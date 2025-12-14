@@ -1,12 +1,35 @@
-button{
-    font-size: 28px;
-    font-family: Helvetica, 'Times New Roman', sans-serif;
-}
-.click-button{
-    background: #000;
-    color: white;
-}
+.click-button,
 .non-click-button{
-    background-color: yellow;
-    
+    font-family:Helvetica,"Times New Roman",sans-serif ;
+    font-size: 32px;
 }
+
+.click-button{
+background-color: black;
+color: white;
+
+ }
+
+ .non-click-button{
+background-color: yellow;
+
+ }
+
+ /* Solution */
+ /* 
+ .inverted,
+.fancy {
+  font-family: Helvetica, "Times New Roman", sans-serif;
+  font-size: 28px;
+}
+
+.inverted {
+  background-color: black;
+  color: white;
+}
+
+.fancy {
+  background-color: yellow;
+}
+
+ */
