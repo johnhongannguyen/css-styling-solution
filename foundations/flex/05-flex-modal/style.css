@@ -1,8 +1,14 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
 
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
 html, body {
   height: 100%;
 }
+
 
 body {
   font-family: Roboto, sans-serif;
@@ -20,6 +26,9 @@ body {
   width: 480px;
   border-radius: 10px;
   box-shadow: 2px 4px 16px rgba(0,0,0,.2);
+  display: flex;
+  gap: 16px;
+  padding: 16px;
 }
 
 .icon {
@@ -33,6 +42,7 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
+  flex-shrink: 0;
 }
 
 .close-button {
@@ -66,4 +76,29 @@ button.cancel {
   background: white;
   border: 1px solid #ddd;
   color: royalblue;
+}
+
+.upper{
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+  
+}
+
+.header{
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.text{
+  padding: 10px;
+}
+
+.continue,
+.cancel{
+  padding: 15px;
+
+}
+.continue{
+  margin-left: 10px;
 }
